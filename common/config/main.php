@@ -4,7 +4,7 @@ return [
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
-            'cachePath' => '@app/../common/cache'
+            'cachePath' => '@common/cache'
         ],
         'tools' => [
             'class' => 'common\components\Tools'
